@@ -6,7 +6,7 @@ The Digital Bird is a simple Android game created as a part of the BBC Make it D
 
 [![Download from Google Play](images/play.png)](https://play.google.com/store/apps/details?id=no.nordicsemi.android.digitalbird)
 
-##Screenshots
+###Screenshots
 
 ![Screenshot](images/main.png) ![Screenshot](images/game.png)
 
