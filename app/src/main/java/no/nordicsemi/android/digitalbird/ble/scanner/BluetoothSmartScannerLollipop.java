@@ -33,6 +33,8 @@ import android.os.Build;
 import android.os.Handler;
 import android.os.ParcelUuid;
 
+import java.util.List;
+
 /**
  * @see BluetoothSmartScanner
  */
@@ -124,6 +126,7 @@ public class BluetoothSmartScannerLollipop extends ScanCallback implements Bluet
 
 
 	private boolean isMicroBitRemote(final ScanRecord record) {
-		return record.getServiceUuids().contains(REQUIRED_UUID);
+		final List<ParcelUuid> services = record.getServiceUuids();
+		return services != null && services.contains(REQUIRED_UUID);
 	}
 }
