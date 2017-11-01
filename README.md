@@ -4,7 +4,7 @@
 
 The Digital Bird is a simple Android game created as a part of the BBC Make it Digital program to teach children embedded programming for Bluetooth Smart. The game requires a Bluetooth Smart device with the remote control application flashed on it in order to play. The documentation of the application may be found below.
 
-[Download APK](https://github.com/NordicSemiconductor/Android-Digital-Bird/releases/latest)
+[Download APK](https://github.com/NordicPlayground/Android-Digital-Bird/releases/latest)
 
 ###Screenshots
 
